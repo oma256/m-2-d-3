@@ -89,3 +89,18 @@ author (автор), и pages (количество страниц). Добав�
 
 # teacher_math.info()
 # teacher_lang.info()
+
+
+class Vehicle:
+
+    def __init__(self, mark, model):
+        self.mark = mark
+        self.model = model
+
+
+    def start_engine(self):
+        print(f'{self.mark}-{self.model} заводись!')
+
+
+car1 = Vehicle(mark='Tayota', model='Camry')
+car1.start_engine()
